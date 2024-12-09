@@ -31,6 +31,7 @@ public class WorksWithHerokuServletTest {
 
     @Test
     public void testDoGet() throws Exception {
+        // aaaa
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         PrintWriter writer = new PrintWriter(out);
         when(response.getWriter()).thenReturn(writer);
