@@ -11,7 +11,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.PrintWriter;
 import static org.junit.Assert.assertEquals;
 import statsic org.mockito.Mockito.when;
-   
+    
 public class WorksWithHerokuServletTest {
     
     private WorksWithHerokuServlet servlet;
